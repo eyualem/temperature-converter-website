@@ -8,16 +8,18 @@
 </head>
 <body>
     <div id="container">
-        <h1>Convert As You Like :)</h1>
+        <h1>Temprature Converter</h1>
         <form id="tempForm">
-            <input type="number" placeholder="0">
-            <input id="celsiusRadio" type="radio" name="tempOption" >
+            <input id="numberInput" placeholder="0">
+            
             <label id="celsiusLabel" for="celsiusRadio">
+                <input id="celsiusRadio" type="radio" name="tempOption">
                 Fahrenheit ➡️ Celsius
             </label>
-            <input id="fahrenheitRadio" type="radio" name="tempOption">
+            
             <label id="fahrenheitLabel" for="fahrenheitRadio">
-                Fahrenheit ➡️ Celsius
+                <input id="fahrenheitRadio" type="radio" name="tempOption">
+                Celsius ➡️ Fahrenheit
             </label>
             <button id="submit" type="submit">Submit</button>
         </form>
