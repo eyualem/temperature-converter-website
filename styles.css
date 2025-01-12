@@ -60,3 +60,9 @@ button{
 button:hover{
     background-color: rgba(224, 71, 71, 0.942);
 }
+
+#result{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
